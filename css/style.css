@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*
 .card {
     background-color: white;
     border-radius: 12px;
@@ -18,7 +18,7 @@ body {
 /*.card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-        }*/
+        }
 .card img {
     width: 120px;
     height: 120px;
@@ -41,12 +41,12 @@ body {
     margin-top: 8px;
 }
 
-/* Estilos básicos para el menú */
+/* Estilos básicos para el menú 
 nav {
     background-color: #333;
     padding: 1rem;
     position: sticky;
-    /* O fixed, para que el menú se quede arriba */
+    /* O fixed, para que el menú se quede arriba 
     top: 0;
 }
 
@@ -69,11 +69,11 @@ nav ul li a:hover {
     background-color: #575757;
 }
 
-/* Estilos para las secciones para que se vean mejor */
+/* Estilos para las secciones para que se vean mejor 
 section {
     padding: 100px 20px;
     min-height: 80vh;
-    /* Para que cada sección ocupe casi toda la pantalla */
+    /* Para que cada sección ocupe casi toda la pantalla 
     border-bottom: 1px solid #ccc;
 }
 
