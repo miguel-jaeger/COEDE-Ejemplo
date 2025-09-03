@@ -1,41 +1,90 @@
 body {
-            font-family: sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f2f5;
-            margin: 0;
-        }
-        .card {
-            background-color: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 24px;
-            text-align: center;
-            max-width: 300px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .card:hover {
+    display: block;
+    /* O simplemente no declarar 'display' para usar el valor por defecto */
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*.card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-        }
-        .card img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .card h1 {
-            font-size: 1.5em;
-            color: #333;
-            margin-top: 16px;
-            margin-bottom: 0;
-        }
-        .card p {
-            color: #777;
-            font-size: 1em;
-            margin-top: 8px;
-        }
+        }*/
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.card p {
+    color: #777;
+    font-size: 1em;
+    margin-top: 8px;
+}
+
+/* Estilos básicos para el menú */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    position: sticky;
+    /* O fixed, para que el menú se quede arriba */
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Estilos para las secciones para que se vean mejor */
+section {
+    padding: 100px 20px;
+    min-height: 80vh;
+    /* Para que cada sección ocupe casi toda la pantalla */
+    border-bottom: 1px solid #ccc;
+}
+
+#presentacion {
+    background-color: #e6f7ff;
+}
+
+#proyectos {
+    background-color: #f0f0f0;
+}
+
+#bibliografia {
+    background-color: #f0f9f0;
+}
